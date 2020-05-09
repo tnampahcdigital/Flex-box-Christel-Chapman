@@ -1,0 +1,79 @@
+/* COLORS
+Main: #666B7E */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 62.5%;
+  color: #666B7E;
+}
+
+header {
+  background-color: #666B7E;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+  padding: .3em;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 30px auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.col-1 {
+  margin: 0;
+}
+
+.col-2 {
+  margin: 0;
+  background-color: #666B7E;
+  width: 30%;
+  border-radius: 10px;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.credit {
+  color: #fff;
+  margin: 5px 0;
+}
+
+.credit-heading {
+  font-size: 2rem;
+}
+
+.see-more {
+  width: 50%;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+}
+
+footer{
+  background-color: #666B7E;
+}
